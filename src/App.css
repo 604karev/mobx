@@ -7,6 +7,31 @@
   pointer-events: none;
 }
 
+.todo-list {
+  list-style: none;
+  max-width: 320px;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.todo-list__label {
+  font-size: 2rem;
+  line-height: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+
+.todo-list__item button {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -32,6 +57,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
